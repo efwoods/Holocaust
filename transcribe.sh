@@ -1,0 +1,1 @@
+curl -X POST -u "3fd32389-36c9-4afa-931c-2bb62aeaa33b:czpLFVj2JaBJ" --header "Content-Type: audio/wav" --data-binary $1 "https://stream.watsonplatform.net/speech-to-text/api/v1/recognize?timestamps=true&speaker_labels=true"
